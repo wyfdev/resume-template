@@ -1,0 +1,53 @@
+<!-- Power by <http://github.com/wyfdev/resume-template> -->
+doctype html
+html
+  head
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    title= resume.title
+    style
+      include styles.css
+  body
+    article
+
+      section#basic-info
+        h1= resume.name
+        p#contact
+          span Tel: 
+            a(href=`tel:${resume.contact.tel}`)= resume.contact.tel
+          span Email: 
+            a(href=`mailto:${resume.contact.email}`)= resume.contact.email
+          span.website
+            a(href=resume.contact.website target="_blank")= resume.contact.website
+
+      hr
+
+      section#skills
+        h2= resume.skills.title
+        dl
+          each skill in resume.skills.list
+            dt= skill.title
+            dd= skill.description
+
+      hr
+
+      section#experience
+        h2= resume.experience.title
+        each experience in resume.experience.list
+          section
+            div
+              h4= experience.title
+              time.period= experience.period
+            div
+              p= experience.description
+
+      hr
+
+      section#education
+        h2= resume.education.title
+        each education in resume.education.list
+          section
+            div
+              h4= education.institution
+              time.period= education.period
+            div
+              p= education.description

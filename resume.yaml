@@ -1,0 +1,36 @@
+en:   # language code
+  title: Resume::Alan Turing
+  name: Alan Mathison Turing
+  contact:
+    tel: "888-8888-8888"
+    email: turing@example.com
+    website: https://example.com/resume.en
+  skills:
+    title: Skills
+    list:
+    - title: Cryptography
+      description: Expertise in breaking ciphers, including the Enigma machine.
+    - title: Mathematics
+      description: Advanced knowledge in mathematical logic and theoretical computer science.
+    - title: Computer Science
+      description: Pioneer in the field of computer science, developed the concept of the Turing machine.
+    - title: Artificial Intelligence
+      description: Early work in the field of AI, including the Turing Test.
+  experience:
+    title: Work Experience
+    list:
+    - title: Mathematician at Bletchley Park
+      period: 1939 - 1945
+      description: Worked on breaking the Enigma code, significantly contributing to the Allied war effort.
+    - title: Reader in Mathematics at the University of Manchester
+      period: 1948 - 1954
+      description: Conducted research in mathematics and computer science, developed the Turing Test for AI.
+  education:
+    title: Education
+    list:
+    - institution: King's College, Cambridge
+      period: 1931 - 1934
+      description: Studied mathematics, graduated with first-class honors.
+    - institution: Princeton University
+      period: 1936 - 1938
+      description: Ph.D. in Mathematics, studied under Alonzo Church.
