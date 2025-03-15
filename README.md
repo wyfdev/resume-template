@@ -3,7 +3,7 @@
 ## How to use
 
 1. edit `resume.yaml`.
-2. run `make image`, `make gen`, to gennerate your resume, 
+2. run `make image`, `make gen`, to generate your resume,
 3. look at `./dist`.
 
 
