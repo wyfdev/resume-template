@@ -112,12 +112,16 @@ p {
 }
 
 /* specific: basic-info, contact */
+#basic-info #contact {
+  display: flex;
+}
 #basic-info #contact > span {
   margin-right: 1em;
 }
 #basic-info #contact .website {
   float: right;
   margin-right: 0;
+  margin-left: auto;
 }
 
 /* specific: skills */
