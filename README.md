@@ -11,7 +11,7 @@
 
 - [x] "**Simple** is better than complex."
 - [x] "**Dark**ness can be a shelter from the storm." (dark theme support)
-- [x] "**Print** your kindness on the hearts of others." (print friendly)
+- [x] "**Print** your kindness on the hearts of others." (printing friendly)
 
 ---
 
