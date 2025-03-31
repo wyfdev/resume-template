@@ -9,4 +9,4 @@ for (let lang in data) {
     await Deno.writeTextFile(`dist/resume.${lang}.html`, html)
 }
 
-console.log("Dnne")
+console.log("Done")
